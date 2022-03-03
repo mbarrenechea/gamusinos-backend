@@ -11,10 +11,7 @@ module.exports = ({ env }) => ({
       user: config.user,
       password: config.password,
       ssl: {
-        rejectUnauthorized: false,
-      },
-      options: {
-        ssl: false,
+        rejectUnauthorized: false
       },
     },
     debug: false,
